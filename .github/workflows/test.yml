@@ -26,7 +26,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: unzip feature
-      run: unzip -o ./features.zip 
+      run: unzip -o ./features/features.zip 
     # - name: Build with Maven
     #   run: mvn clean package -U
     
